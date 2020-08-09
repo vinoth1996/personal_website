@@ -31,7 +31,7 @@ body {
 
 .row {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   margin-right: -0.75rem;
   margin-left: -0.75rem;
   flex-direction: column;
@@ -40,7 +40,6 @@ body {
 
 .justify-content-center {
   justify-content: center !important;
-  text-align: center;
 }
 
 /* .col-lg-6 {
@@ -59,6 +58,7 @@ body {
   font-size: 3rem;
   font-weight: 350;
   line-height: 0.2;
+  position: static;
   color: #212529;
   margin: 0 auto;
   top: 50%;
