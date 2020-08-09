@@ -40,14 +40,14 @@ body {
   justify-content: center !important;
 }
 
-.col-lg-6 {
+/* .col-lg-6 {
     flex: 0 0 50%;
     max-width: 50%;
     position: relative;
     width: 100%;
     padding-right: 0.75rem;
     padding-left: 0.75rem;  
-}
+} */
 
 .display-1 {
   /* font-size: 3rem;
