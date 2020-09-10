@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
+  background: #bfb0c9;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #4f186e;
   color: #fff;
   text-decoration: none;
 }
@@ -403,6 +403,7 @@ section {
   padding: 10px 0;
   margin: 0 0 6px 0;
   text-transform: uppercase;
+  /* border-radius: 24px; */
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -415,14 +416,17 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #dce8f8;
+  background: #ebd4f3;
+  border-radius: 24px;
 }
 
 .skills .progress-bar {
   width: 1px;
-  height: 10px;
+  height: 5px;
+  border-radius: 24px;
   transition: .9s;
-  background-color: #149ddd;
+  /* background-color: #149ddd; */
+  background-image: linear-gradient(to top, #674d92 0%, #9151a5 100%);
 }
 
 /*--------------------------------------------------------------
@@ -773,7 +777,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #4c3553;
 }
 
 .contact .info .email p {
@@ -864,14 +868,14 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 25px solid #18d26e;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
 
 .contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 0;
+  border-radius: 23px;
   box-shadow: none;
   font-size: 14px;
 }
@@ -885,7 +889,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #149ddd;
+  background: #4f186e;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -894,7 +898,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #37b3ed;
+  background: #901dd3;
 }
 
 @-webkit-keyframes animate-loading {
