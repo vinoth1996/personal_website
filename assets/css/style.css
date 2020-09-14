@@ -110,6 +110,19 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
+.skills-content {
+  /* font-size: 40px; */
+  display: flex;
+  line-height: 6;
+  padding: 8px 0;
+  margin-right: 4px;
+  /* border-radius: 50%; */
+  /* text-align: center; */
+  /* width: 36px; */
+  /* height: 36px; */
+  transition: 0.3s;
+}
+
 #header .profile .social-links a:hover {
   background: #4f186e;
   color: #fff;
