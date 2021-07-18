@@ -1062,14 +1062,14 @@ h3 {
 .header-area .main-header-area .Appointment .book_btn a {
   /* background: rgb(134, 134, 134); */
   padding: 12px 26px;
-  font-size: 20px !important;
+  font-size: 18px !important;
   font-weight: 500;
   /* border: 1px solid transparent; */
   border: 2px solid #b1b4c1;
   /* border: 2px solid linear-gradient(
     145deg
     , #f81f01, #ee076e); */
-  background-image: linear-gradient(145deg, #f81f01, #ee076e) !important;  
+  /* background-image: linear-gradient(145deg, #f81f01, #ee076e) !important;   */
   border-radius: 6px !important;
   color: #c6c9d8;
   -webkit-border-radius: 0px;
@@ -1088,6 +1088,8 @@ h3 {
 .header-area .main-header-area .Appointment .book_btn a:hover {
   /* background: #D465EF; */
   color: #fff;
+  background-image: linear-gradient(145deg, #f81f01, #ee076e) !important;
+  border-color: #f81f01; 
   /* border: 1px solid #c6c9d8; */
 }
 
@@ -2048,6 +2050,7 @@ h3 {
 /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_counter.scss */
 .counter_area {
   /* padding-bottom: 120px; */
+  /* position: relative; */
   padding-top: 75px;
   background: #FFFFFF;
 }
@@ -3259,8 +3262,8 @@ h3 {
 /* line 25, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_portfolio.scss */
 .portfolio_image_area {
   position: relative;
-  padding-bottom: 185px;
-  position: relative;
+  padding-bottom: 155px;
+  /* position: relative; */
   margin-top: -295px;
   background: #101010;
 }
@@ -6886,6 +6889,50 @@ h6 {
 }
 
 .custom-shape-divider-bottom-1625386042 .shape-fill {
+  fill: #FFFFFF;
+}
+
+/* .custom-shape-divider-bottom-1625997011 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1625997011 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 104px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1625997011 .shape-fill {
+  fill: #FFFFFF;
+} */
+
+.custom-shape-divider-bottom-1625418516 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1625418516 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 155px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1625418516 .shape-fill {
   fill: #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */
